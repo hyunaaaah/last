@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>마이페이지</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="./img/logo_type2.png">
+    </div>
+    <ul class="header-menu">
+        <li class="about">ABOUT 향수</li>
+        <li class="recommend">추천검색</li>
+        <li class="board">정보공유</li>
+        <li class="myPage">마이페이지</li>
+        <li class="logout">로그아웃</li>
+    </ul>
+</header>
+<div class="myPage-contents">
+    <div class="profile">
+        <div class="profile-img">
+            <div class="fa fa-camera-retro"></div>
+        </div>
+        <div class="profile-name">빅스비</div>
+        <ul class="profile-menu">
+            <li>회원정보수정</li>
+            <li>위시리스트</li>
+            <li>주문현황</li>
+            <li>Q & A 문의</li>
+        </ul>
+    </div>
+    <div class="myPage-text">
+        <div class="wish ">
+            <div class="myPage-select-title">회원님이 관심있는 제품들</div>
+            <ul class="wish-list">
+                <li>
+                    <img src="./img/perfume/Jomalone/nut.png">
+                    <div class="wish-list-text">
+                        <div>제품명 : 너트맥 앤 진저 코롱</div>
+                        <div>브랜드 : 조말론</div>
+                        <div>사이트 : www.jomalone.co.kr</div>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/perfume/Dior/missDior-bouque.jpg">
+                    <div class="wish-list-text">
+                        <div>제품명 : 미스디올 부케</div>
+                        <div>브랜드 : 디올</div>
+                        <div>사이트 : www.dior.com</div>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/perfume/Chanel/n'5leau.jpg">
+                    <div class="wish-list-text">
+                        <div>제품명 : n'5leau</div>
+                        <div>브랜드 : 샤넬</div>
+                        <div>사이트 : www.chanel.com</div>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/perfume/Chloe/chloe_edt.jpg">
+                    <div class="wish-list-text">
+                        <div>제품명 : 끌로에</div>
+                        <div>브랜드 : 끌로에</div>
+                        <div>사이트 : www.chloe.com</div>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="order">
+            <div class="myPage-select-title">회원님이 주문한 제품들</div>
+            <div class="order-history">주문내역</div>
+            <div class="order-date">
+                <ul class="date-exam">
+                    <li>1주일</li>
+                    <li>1개월</li>
+                    <li>1년</li>
+                </ul>
+                기간 설정
+                <span>
+                    <input placeholder="2017-11-11">
+                    <i class="fa fa-calendar"></i>
+                </span>
+                ~
+                <span>
+                    <input placeholder="2017-12-01">
+                    <i class="fa fa-calendar"></i>
+                </span>
+                <button>조회</button>
+            </div>
+            <div class="order-history-view">
+                주문내역이 없습니다!
+            </div>
+        </div>
+        <div class="edit ">
+            <div class="myPage-select-title">회원님의 정보 수정</div>
+            <div class="edit-member-info">회원정보</div>
+            <div class="member-info">
+                <div>
+                    <div>아이디</div>
+                    <input placeholder="siri@perfume.co.kr">
+                    <button>중복확인</button>
+                </div>
+                <div>
+                    <div>닉네임</div>
+                    <input placeholder="빅스비">
+                    <button>중복확인</button>
+                </div>
+                <div>
+                    <div>비밀번호</div>
+                    <input type="password">
+                </div>
+                <div id="address">
+                    <div>주소</div>
+                    <input> &nbsp - &nbsp <input>
+                    <button>우편번호</button>
+                    <div id="detail-address">
+                        <input>
+                    </div>
+                </div>
+            </div>
+            <div class="member-info-btn">
+                <button>저장</button>
+                <button>취소</button>
+            </div>
+        </div>
+        <div class="qna active">
+            <div class="myPage-select-title">회원님 질문있으신가요?</div>
+            <div class="qna-title">Q & A</div>
+            <div class="qna-contents member-info">
+                <div>
+                    <div>제목</div>
+                    <input>
+                </div>
+                <div>
+                    <div>내용</div>
+                    <textarea></textarea>
+                </div>
+                <div class="qna-btn">
+                    <button type="submit">보내기</button>
+                    <button>취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{> template/footer }}
+</body>
+</html>

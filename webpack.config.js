@@ -25,6 +25,12 @@ const pages = [{
 }, {
     html: 'perfumeInfo',
     script: 'perfumeInfo'
+}, {
+    html: 'board',
+    script: 'board'
+}, {
+    html: 'myPage',
+    script: 'myPage'
 }];
 
 module.exports = {

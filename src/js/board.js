@@ -1,43 +1,21 @@
-require('../less/sub.less');
-require('../less/main.less');
-require('../js/board');
 require('../less/board.less');
 
-
-$('.login').remove();
-$('.header-menu').append('<li class="myPage">마이페이지</li>');
-$('.header-menu').append('<li class="logout">로그아웃</li>');
-
-
-$('.myPage').on('click', function () {
-    location.href = './myPage.html';
+$('.logo').on('click', function () {
+    location.href = './';
 });
 
-$('.logout').on('click', function () {
+$('.recommend').on('click', function () {
+    location.href = './recommend.html';
+});
+
+$('.about').on('click', function () {
+    location.href = './info.html';
+});
+
+$('.login').on('click', function () {
     location.href = './login.html';
 });
 
-$('.board').on('click', function () {
-    $('.main-sentence').empty();
-    $('.main-box').empty();
-
-    $('.login').remove();
-
-    var sample = require('../sample/boardSample.hbs');
-    $('header').after(sample);
-    $('.board-list.board-section').show();
-
-    $('.board-link').on('click', function() {
-        perfumeBoard();
-    });
-
-
-    $('#board-save').on('click', function () {
-        $('#sample').show();
-        history.back();
-    });
-
-});
 
 function perfumeBoard() {
     var currentPage = 1;
@@ -445,9 +423,25 @@ function perfumeBoard() {
     $('.board-link').on('click', function() {
         var link = $(this).attr('link');
 
+        if (link === 'edit') {
+            alert('로그인이 필요한 페이지입니다.');
+            location.href = './login.html';
+        }
+        else {
             changeSection(link);
+        }
 
     });
+
     changeSection('list', true);
 }
 
+perfumeBoard();
+
+
+//...
+
+$('#board-save').on('click', function () {
+    $('#sample').show();
+    history.back();
+});

@@ -6,32 +6,39 @@
 </head>
 <body>
 {{> template/header}}
-<div class="main-sentence">향수에 대한 궁금증</div>
-<ul class="note-btns">
-    <li>탑노트</li>
-    <li>미들노트</li>
-    <li>베이스노트</li>
-    <li id="type">계열</li>
-</ul>
-<div class="contents-box">
-    <div class="note">
-        <div class="note-contents active">
-        </div>
-        <div class="type-contents">
-
-        </div>
+<div class="main-sentence">
+    <span class="sentence">나에게</span>
+    <span class="sentence">어울리는</span>
+    <span class="main-word">향</span>
+    <span class="sentence">을</span>
+    <span class="sentence">찾아보세요</span>
+</div>
+<div class="main-box">
+    <div class="choice" id="cool">
+        <span class="keyword">시원한 상쾌한</span>
     </div>
-    <div class="division">
-        <div class="division-contents active">
-        </div>
+    <div class="choice" id="warm">
+        <span class="keyword">포근한 부드러운</span>
+    </div>
+    <div class="choice" id="relax">
+        <span class="keyword">차분한</span>
+    </div>
+    <div class="choice" id="sweet">
+        <span class="keyword">달콤한</span>
+    </div>
+    <div class="choice" id="citrus">
+        <span class="keyword">상큼한</span>
+    </div>
+    <div class="choice" id="mature">
+        <span class="keyword">성숙한</span>
+    </div>
+    <div class="choice" id="sexy">
+        <span class="keyword">섹시한</span>
+    </div>
+    <div class="choice" id="heavy">
+        <span class="keyword">무거운 중후한</span>
     </div>
 </div>
-<ul class="division-btns">
-    <li>퍼퓸</li>
-    <li>오 드 퍼퓸</li>
-    <li>오 드 뚜왈렛</li>
-    <li>오 드 코롱</li>
-    <li>샤워코롱</li>
-</ul>
+{{> template/footer}}
 </body>
 </html>

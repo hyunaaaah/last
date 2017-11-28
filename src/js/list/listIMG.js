@@ -135,4 +135,114 @@ module.exports = [{
     image: 'Dior/missDior-origin-extra.jpg',
     color: 'orange',
     source: 'www.dior.com'
+}, {
+    imgId: 'jo_nut',
+    name: '너트맥 앤 진저 코롱 ',
+    brand: 'Jomalone',
+    intro: '조 말론 런던이 개발한 최초의 향',
+    summary: '샌달우드와 삼나무에 너트맥과 강렬한 생강 향을 더해 독특하면서도 중독성 있는 향수입니다.',
+    note: '탑 노트: 생강<br>' +
+    '       미들 노트: 너트맥<br>' +
+    '       베이스 노트: 샌달우드',
+    image: 'Jomalone/nut.png',
+    color: '#CFC4AD',
+    source: 'www.jomalone.co.kr'
+}, {
+    imgId: 'jo_nut',
+    name: '앰버 앤 라벤더 코롱',
+    brand: 'Jomalone',
+    intro: '깔끔하고 남성적이고 부드러운 향수',
+    summary: '앰버 앤 라벤더는 깊은 느낌의 남성적인 향수로, 클래식하고 깔끔하며 세련된 느낌을 가져다 줍니다.<br>' +
+    '           프렌치 라벤더와 페티그레인으로 앰버향에 신선한 활기를 불어넣었습니다.<br>' +
+    '           코스모폴리탄에 어울리는 세련된 느낌의 향수입니다.',
+    note: '탑 노트: 페티그레인<br>' +
+    '       미들 노트: 프렌치 라벤더<br>' +
+    '       베이스 노트: 앰버<br`>',
+    image: 'Jomalone/amber.png',
+    color: '#CFC4AD',
+    source: 'www.jomalone.co.kr'
+}, {
+    imgId: 'jo_nut',
+    name: '잉글리쉬 오크 앤 헤이즐넛 코롱',
+    brand: 'Jomalone',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Jomalone/hazlenut.png',
+    color: '#CFC4AD',
+    source: 'www.jomalone.co.kr'
+}, {
+    imgId: 'jo_nut',
+    name: 'n\'5로',
+    brand: 'Chanel',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Chanel/n\'5leau.jpg',
+    color: '#F0F07B',
+    source: 'www.chanel.com'
+}, {
+    imgId: 'jo_nut',
+    name: '블루 드 샤넬',
+    brand: 'Chanel',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Chanel/blueDeChanel.jpg',
+    color: '#F0F07B',
+    source: 'www.chanel.com'
+}, {
+    imgId: 'jo_nut',
+    name: 'n\'5',
+    brand: 'Chanel',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Chanel/n\'5.jpg',
+    color: '#F0F07B',
+    source: 'www.chanel.com'
+}, {
+    imgId: 'jo_nut',
+    name: '플라워 바이 겐조 오 드 뚜왈렛',
+    brand: 'Chanel',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Kenzo/kenzo_edt.png',
+    color: '#C7BFEC',
+    source: 'www.chanel.com'
+}, {
+    imgId: 'jo_nut',
+    name: '플라워 바이 겐조 오 드 뤼미에르',
+    brand: 'Chanel',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Kenzo/kenzo_edl.png',
+    color: '#C7BFEC',
+    source: 'www.chanel.com'
+}, {
+    imgId: 'jo_nut',
+    name: '플라워 인 디 에어 오 드 퍼퓸',
+    brand: 'Chanel',
+    intro: '잉글리쉬 오크 앤 헤이즐넛은 삼림지대에서 자라난 헤이즐넛의 바삭거림, 그레이프프루트의 매력,<br>' +
+    '       상쾌한 이끼의 느낌, 엘리미의 스파이스, 우디한 베티버를 충분히 로스팅한 오크에서 담아내어<br>' +
+    '       흙내음과 녹색이 어우러진 고혹적인 향을 선사합니다.',
+    summary: '',
+    note: '',
+    image: 'Kenzo/kenzo_edp.png',
+    color: '#C7BFEC',
+    source: 'www.chanel.com'
 }];
