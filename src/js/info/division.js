@@ -5,8 +5,8 @@ module.exports= [{
     '                약 6 ~ 7시간 정도 지속된다<br>\n' +
     '                손목이나 목덜미에 점을 찍듯이 2~3방울 정도 바르는 것이 좋다',
     img1: 'p1.jpg',
-    img2: 'p2.png',
-    img3: 'n\'5leau.jpg'
+    img2: 'p2.jpg',
+    img3: 'p3.jpg'
 }, {
     division: '오 드 퍼퓸 [Eau de Perfume]',
     percent: '9% ~ 12%',
@@ -49,6 +49,6 @@ module.exports= [{
     '                휴대하면서 향이 사라질 때마다 수시로 뿌려도 부담이 없다<br>\n' +
     '                짧은 시간, 기분 전환을 하기에 좋은 제품',
     img1: 'c1.png',
-    img2: 'c2.png',
-    img3: 'c3.png'
+    img2: 'c2.jpg',
+    img3: 'c3.jpg'
 }];
